@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    font-family: 'Hevetica', 'Arial', sans-serif;
+    font-weight: 400;
+    background-image: url("https://i1.wp.com/www.wikipx.com/wp-content/uploads/2020/07/coffee-tea-minimalist-hd-wallpaper-2.png?fit=2560%2C1440&ssl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #a0522d;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+header{
+    height: 101px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.left-nav {
+    display:flex;
+    height: 100%;
+    align-items: center;
+}
+
+.left-nav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.left-nav nav ul li{
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.left-nav nav ul li:hover{
+    color:  #a0522d;
+}
+
+.right-nav {
+    display:flex;
+    align-items: center;
+}
+
+.find-store{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.find-store i{
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    font-size: 24px;
+}
+
+.find-store:hover{
+    color: #a0522d
+}
+
+.sign-in, .join-now{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+.sign-in{
+    margin-right: 16px;
+}
+
+
+.join-now{
+    background-color: black;
+    color: white;
+    transition: all .2s ease;
+}
+
+.join-now:hover{
+    background-color: rgba(0 0 0 0.7);
+    background-color: rgba(0 0 0 0.7);
+}
+
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bottom-section .image{
+    display: flex;
+    width: 100%;
+}
+
+.top-bottom-section .image img{
+    width: 100%;
+}
+
+.top-bottom-section .text{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfd3c8;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-top: 16px;
+    color: #1e3932;
+    flex-grow: 1;
+}
+
+.top-bottom-section:first-child{
+    margin-right: 16px;
+}
+
+
+.top-bottom-section:last-child{
+    margin-right: 16px;
+}
+
+.top-bottom-section .text h1{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.top-bottom-section .text h3{
+    font-size: 19px;
+    line-height: 1.75;
+}
+
+.top-bottom-section{
+    display: flex;
+    margin-bottom: 32px;
+}
